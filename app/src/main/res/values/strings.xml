@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BrainTrainer</string>
+    <color name="time">#eae861</color>
+    <color name="score">#07ce2f</color>
+</resources>
