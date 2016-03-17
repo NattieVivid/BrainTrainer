@@ -69,13 +69,13 @@ public class MainActivity extends Activity {
         A = r.nextInt(49)+1;
         B = r.nextInt(49)+1;
         for (int i = 0; i < 4; i++){
-            C[i] = r.nextInt(49)+1;
+            C[i] = r.nextInt(99)+1;
         }
 
         int a = r.nextInt(4);
         C[a] = A + B;
 
-        tvQuestion.setText(Integer.toString(A)+"+"+Integer.toString(B));
+        tvQuestion.setText(Integer.toString(A) + "+" + Integer.toString(B));
         btnAnswer1.setText(Integer.toString(C[0]));
         btnAnswer2.setText(Integer.toString(C[1]));
         btnAnswer3.setText(Integer.toString(C[2]));
@@ -91,6 +91,16 @@ public class MainActivity extends Activity {
         }
         if (!timeIsUp)
           GenerateNewQuestion();
+        else {
+            tvQuestion.setVisibility(View.INVISIBLE);
+            btnAnswer1.setVisibility(View.INVISIBLE);
+            btnAnswer2.setVisibility(View.INVISIBLE);
+            btnAnswer3.setVisibility(View.INVISIBLE);
+            btnAnswer4.setVisibility(View.INVISIBLE);
+            tvScore.setVisibility(View.INVISIBLE);
+            tvTimeLeft.setVisibility(View.INVISIBLE);
+
+        }
 
     }
 
