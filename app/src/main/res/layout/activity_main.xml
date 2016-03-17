@@ -85,14 +85,18 @@
                     android:text="Answer1"
                     android:id="@+id/btnAnswer1"
                     android:layout_weight="1"
-                    android:visibility="invisible" />
+                    android:visibility="invisible"
+                    android:onClick="OnClickBtn"
+                    android:textSize="20sp" />
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Answer2"
                     android:id="@+id/btnAnswer2"
                     android:layout_weight="1"
-                    android:visibility="invisible" />
+                    android:visibility="invisible"
+                    android:onClick="OnClickBtn"
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
@@ -110,14 +114,18 @@
                     android:text="Answer3"
                     android:id="@+id/btnAnswer3"
                     android:layout_weight="1"
-                    android:visibility="invisible" />
+                    android:visibility="invisible"
+                    android:onClick="OnClickBtn"
+                    android:textSize="20sp" />
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Answer4"
                     android:id="@+id/btnAnswer4"
                     android:layout_weight="1"
-                    android:visibility="invisible" />
+                    android:visibility="invisible"
+                    android:onClick="OnClickBtn"
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
